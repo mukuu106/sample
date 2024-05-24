@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sample"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"/>
+
+        <activity
+            android:name=".mon_nonvegMainActivity6"
+            android:exported="false"/>
+        <activity
+            android:name=".tue_nonvegMainActivity7"
+            android:exported="false"/>
+        <activity
+        android:name=".wed_nonvegMainActivity8"
+        android:exported="false"/>
+        <activity
+        android:name=".thur_nonvegMainActivity9"
+        android:exported="false"/>
+        <activity
+        android:name=".fri_nonvegMainActivity10"
+        android:exported="false"/>
+        <activity
+            android:name=".sat_nonvegMainActivity11"
+            android:exported="false"/>
+        <activity
+            android:name=".sun_nonvegMainActivity12"
+            android:exported="false"/>
+        <activity
+            android:name=".mon_vegMainActivity13"
+            android:exported="false"/>
+        <activity
+            android:name=".tue_vegMainActivity14"
+            android:exported="false"/>
+        <activity
+            android:name=".wed_vegMainActivity15"
+            android:exported="false"/>
+        <activity
+            android:name=".thur_vegMainActivity16"
+            android:exported="false"/>
+        <activity
+            android:name=".fri_vegMainActivity17"
+            android:exported="false"/>
+        <activity
+            android:name=".sat_vegMainActivity18"
+            android:exported="false"/>
+        <activity
+            android:name=".sun_vegMainActivity19"
+            android:exported="false"/>
+
+    </application>
+
+
+</manifest>
